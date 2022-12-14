@@ -1,0 +1,41 @@
+.section3Container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section3Container1{
+    display: flex;
+    width: 35vw;
+}
+
+.section3ContainerImages{
+    display: flex;
+    height: 15vh;
+    width: 10vw;
+    border-radius: 10px;
+}
+
+/*
+
+.section3ImageOrange1{
+    height: 30vh;
+    width: 30vw;
+    background-color:beige;
+    z-index: -1;
+}
+
+
+.section3ImageOrange2{
+    height: 20vh;
+    width: 20vw;
+    background-color:beige;
+}
+
+*/
+
+.section3Container2{
+    width: 35vw;
+}
