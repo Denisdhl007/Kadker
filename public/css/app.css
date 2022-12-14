@@ -10721,7 +10721,7 @@ body {
   display: flex;
   width: 100vw;
   height: 80vh;
-  z-index: -1;
+  z-index: 0;
 }
 
 .navBarImage {
@@ -10739,6 +10739,23 @@ body {
   color: #fff;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.headerButtonsL {
+  background-color: #fb0;
+  border-radius: 50px;
+  width: 10vw;
+  height: 6vh;
+  margin: 0vh 1vw;
+  color: #fff;
+  border: 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.headerButtonsL:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
 }
 
 body {
