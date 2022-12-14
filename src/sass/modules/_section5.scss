@@ -1,4 +1,4 @@
-.section3Container{
+.section5Container{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -8,16 +8,27 @@
     // margin-bottom: 5vh;
 }
 
-.section3Container1{
+/*
+.section5Container2 p{
+    font-size: 20px;
+    color: orange;
+}
+*/
+
+.section5Container1{
     display: flex;
     width: 38vw;
     justify-content: space-around;
     height: 70vh;
 }
 
-.section3ContainerImagesL{
+.section5Container2 p{
+    font-size: 18px;
+}
+
+.section5ContainerImagesL{
     display: flex;
-    height: 37vh;
+    height: 42vh;
     width: 17vw;
     border-radius: 10px;
     margin-top: 5vh;
@@ -25,9 +36,9 @@
     align-items: flex-end;
 }
 
-.section3ContainerImagesR{
+.section5ContainerImagesR{
     display: flex;
-    height: 37vh;
+    height: 42vh;
     width: 17vw;
     border-radius: 10px;
     margin-top: 15vh;
@@ -47,7 +58,7 @@
 }
 */
 
-.section3Container2{
+.section5Container2{
     display: flex;
     width: 47vw;
     height: 70vh;
@@ -55,35 +66,53 @@
     justify-content: center;
 }
 
-.section3ContainerThick{
+.section5ContainerThick{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
-.section3ContainerThickL{
+.section5Elements6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5Elements3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+}
+
+.section5ContainerThickL{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+.sectionContainerThickR{
     display: flex;
     font-size: 15px;
 }
 
-.section3ContainerThickR{
+.section5ContainerThickL3{
     display: flex;
-    font-size: 15px;
+    padding-right: 1vw;
 }
 
-.section3Button{
-    background-color: #fb0;
+.section5ContainerThickL3 i{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 183, 38);
     border-radius: 50px;
-    width: 10vw;
-    height: 6vh;
-    margin: 2vh 1vw;
-    color: #fff;
-    border: 1px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    font-size: 30px;
+    padding: 2vh 1vw;
 }
 
-.section3Button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    color: white;
+.section5ContainerThickL3 h3{
+    font-size: 23px;
 }
+
 

@@ -10728,6 +10728,7 @@ body {
   /*
   background-image:linear-gradient(90deg, rgba(55,55,55,0.528470763305322)100%, rgba(0,212,255,1) 100%), url(../../../public/img/carousel-1.jpg);
   */
+  background: linear-gradient(#626262, #878787);
   display: inline-block;
   position: relative;
   width: 100vw;
@@ -10800,14 +10801,14 @@ body {
 
 .section2Card {
   display: flex;
-  color: rgb(255, 180, 18);
+  color: #ffb412;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: rgba(255, 235, 188, 0.688);
+  background-color: rgba(255, 235, 188, 0.6862745098);
   width: 17vw;
   height: 36vh;
+  justify-content: space-evenly;
 }
 
 div i {
@@ -10868,10 +10869,20 @@ div p {
 */
 .section3Container2 {
   display: flex;
-  width: 47vw;
+  width: 45vw;
   height: 70vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.section3Container2 p {
+  font-size: 20px;
+}
+
+.section3Container2 p {
+  font-size: 20px;
 }
 
 .section3ContainerThick {
@@ -10908,7 +10919,7 @@ div p {
 
 .section4Container {
   display: flex;
-  height: 100vh;
+  height: 150vh;
   margin-left: 5vw;
   margin-right: 5vw;
   flex-direction: column;
@@ -10931,11 +10942,12 @@ div p {
 
 .section4h3 {
   display: flex;
-  margin-right: 18vw;
+  margin-right: 44vw;
 }
 
 .section4h3 h3 {
-  font-size: 40px;
+  width: 20vw;
+  font-size: 60px;
   color: white;
 }
 
@@ -10944,20 +10956,90 @@ div p {
   align-items: center;
 }
 
-.section4Text {
+.barRightPhone i {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+}
+
+.barRightContact {
+  width: 15vw;
+}
+
+.barRightContact p {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.section4TextTitre {
   display: flex;
-  margin-top: 30vh;
+  margin-top: 42vh;
   align-items: center;
   flex-direction: column;
-  width: 40vw;
-}
-
-.section4Text h1 {
+  width: 25vw;
+  font-size: 25px;
   text-align: center;
-  transition-duration: 0.4s;
 }
 
-.section3Container {
+.section4TextTitre h1 {
+  text-align: center;
+  transition-duration: 1, 5s;
+}
+
+.section4ContainerCards4 {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.section4card {
+  transition: 0.3s;
+  margin-left: -5vw;
+  margin-right: -5vw;
+}
+
+.section4SmallContainer {
+  display: flex;
+  width: 22vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.59);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section4Price {
+  display: flex;
+  border: 1px solid #ffa500;
+  border-radius: 50px;
+  height: 3vh;
+  width: 4vw;
+  margin-top: 3vh;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.section4Texth4 {
+  font-size: 30px;
+}
+
+.section4ContainerCard {
+  width: 22vw;
+  height: 48vh;
+  background-color: rgba(255, 233, 192, 0.59);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section4SmallContainer h4 {
+  font-size: 20px;
+}
+
+.section4SmallContainer p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.section5Container {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -10966,16 +11048,26 @@ div p {
   height: 70vh;
 }
 
-.section3Container1 {
+/*
+.section5Container2 p{
+    font-size: 20px;
+    color: orange;
+}
+*/
+.section5Container1 {
   display: flex;
   width: 38vw;
   justify-content: space-around;
   height: 70vh;
 }
 
-.section3ContainerImagesL {
+.section5Container2 p {
+  font-size: 18px;
+}
+
+.section5ContainerImagesL {
   display: flex;
-  height: 37vh;
+  height: 42vh;
   width: 17vw;
   border-radius: 10px;
   margin-top: 5vh;
@@ -10983,9 +11075,9 @@ div p {
   align-items: flex-end;
 }
 
-.section3ContainerImagesR {
+.section5ContainerImagesR {
   display: flex;
-  height: 37vh;
+  height: 42vh;
   width: 17vw;
   border-radius: 10px;
   margin-top: 15vh;
@@ -11004,7 +11096,7 @@ div p {
     background-color:beige;
 }
 */
-.section3Container2 {
+.section5Container2 {
   display: flex;
   width: 47vw;
   height: 70vh;
@@ -11012,34 +11104,103 @@ div p {
   justify-content: center;
 }
 
-.section3ContainerThick {
+.section5ContainerThick {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section5Elements6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section5Elements3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+}
+
+.section5ContainerThickL {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
+.sectionContainerThickR {
+  display: flex;
+  font-size: 15px;
+}
+
+.section5ContainerThickL3 {
+  display: flex;
+  padding-right: 1vw;
+}
+
+.section5ContainerThickL3 i {
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 183, 38);
+  border-radius: 50px;
+  font-size: 30px;
+  padding: 2vh 1vw;
+}
+
+.section5ContainerThickL3 h3 {
+  font-size: 23px;
+}
+
+.section6Text {
+  display: flex;
+  margin-top: 30vh;
+  align-items: center;
   flex-direction: column;
 }
 
-.section3ContainerThickL {
+.section6Text h1 {
   display: flex;
-  font-size: 15px;
+  width: 17vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.section3ContainerThickR {
+.section6ContainerCards4 {
   display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  transition: 0.3s;
+  width: 17%;
+  margin: 2vw 2vh;
+}
+
+.section6SmallContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 233, 192, 0.59);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section6ContainerCard {
+  width: 17vw;
+  height: 34vh;
+  background-color: rgba(255, 233, 192, 0.59);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section6SmallContainer h4 {
+  font-size: 20px;
+}
+
+.section6SmallContainer p {
   font-size: 15px;
-}
-
-.section3Button {
-  background-color: #fb0;
-  border-radius: 50px;
-  width: 10vw;
-  height: 6vh;
-  margin: 2vh 1vw;
-  color: #fff;
-  border: 1px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.section3Button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: white;
 }

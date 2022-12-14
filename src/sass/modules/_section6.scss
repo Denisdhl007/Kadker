@@ -1,0 +1,53 @@
+.section6Text{
+    display: flex;
+    margin-top: 30vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6Text h1{
+    display: flex;
+    width: 17vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.section6ContainerCards4{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    transition: 0.3s;
+    width: 17%;
+    margin: 2vw 2vh;
+  }
+  
+  .section6SmallContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 233, 192, 0.59);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .section6ContainerCard{
+    width: 17vw;
+    height: 34vh;
+    background-color: rgba(255, 233, 192, 0.59);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .section6SmallContainer h4{
+    font-size: 20px;
+  }
+
+
+  .section6SmallContainer p{
+    font-size: 15px;
+  }

@@ -10,14 +10,14 @@
 
 .section2Card{
     display: flex;
-    color: rgb(255, 180, 18);
+    color: #ffb412;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: rgba(255, 235, 188, 0.688);
+    background-color: #ffebbcaf;
     width: 17vw;
     height: 36vh;
+    justify-content: space-evenly;
 }
 
 div i{

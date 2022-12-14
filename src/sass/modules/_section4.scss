@@ -1,6 +1,6 @@
 .section4Container{
     display: flex;
-    height: 100vh;
+    height: 150vh;
     margin-left: 5vw ;
     margin-right: 5vw;
     flex-direction: column;
@@ -23,35 +23,99 @@
 
 .section4h3{
     display: flex;
-    margin-right: 18vw;
+    margin-right: 44vw;
 }
 
 .section4h3 h3{
-    font-size: 40px;
+    width: 20vw;
+    font-size: 60px;
     color: white;
 }
 
 .barRightPhone{
     display: flex;
     align-items: center;
+}
 
+.barRightPhone i{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
 }
 
 .barRightContact{
-
+    width: 15vw;
 }
 
-.section4Text{
+.barRightContact p{
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.section4TextTitre{
     display: flex;
-    margin-top: 30vh;
+    margin-top: 42vh;
     align-items: center;
     flex-direction: column;
-    width: 40vw;
+    width: 25vw;
+    font-size: 25px;
+    text-align:center;
 }
 
-.section4Text h1{
+.section4TextTitre h1{
     text-align: center;
-    transition-duration: 0.4s;
+    transition-duration: 1,5s;
 }
 
+.section4ContainerCards4{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
 
+.section4card {
+    transition: 0.3s;
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+  
+  .section4SmallContainer {
+    display: flex;
+    width: 22vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .section4Price{
+    display: flex;
+    border: 1px solid #ffa500;
+    border-radius: 50px;
+    height: 3vh;
+    width: 4vw;
+    margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+.section4Texth4{
+    font-size: 30px;
+  }
+
+  .section4ContainerCard{
+    width: 22vw;
+    height: 48vh;
+    background-color: rgba(255, 233, 192, 0.59);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .section4SmallContainer h4{
+    font-size: 20px;
+  }
+
+  .section4SmallContainer p{
+    font-size: 18px;
+    text-align: center;
+  }
