@@ -10782,3 +10782,19 @@ body {
 .navBarRight {
   display: flex;
 }
+
+.section1Container {
+  height: 50vh;
+}
+
+.section2Container {
+  display: flex;
+  border: 1px solid black;
+  height: 50vh;
+}
+
+.section2Card {
+  display: flex;
+  border: 1px solid black;
+  color: yellow;
+}
