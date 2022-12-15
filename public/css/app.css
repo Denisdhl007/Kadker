@@ -10776,13 +10776,52 @@ body {
 .footerContainerBrown {
   background-color: rgba(83, 44, 0, 0.296);
   height: 50vh;
-  border: 1px solid black;
   margin-top: 10vh;
+}
+
+.footer4section3elements {
+  display: flex;
+  align-items: flex-start;
+  width: 10vw;
+  flex-direction: column;
+}
+
+.footer4section3elements3 {
+  display: flex;
+}
+
+.footer4Sections {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: space-evenly;
+}
+
+.footer4Sections1234 {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+
+.footer4Sections i {
+  display: flex;
+  font-size: 12px;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 7px 7px;
+  color: white;
 }
 
 .footerContainerBlack {
   background-color: rgba(0, 0, 0, 0.419);
   height: 50vh;
+}
+
+.footerSocialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10vw;
 }
 
 .section1Container {
