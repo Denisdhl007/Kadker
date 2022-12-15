@@ -47,7 +47,7 @@
 
 .footerContainerBlack{
     background-color: rgba(0, 0, 0, 0.419);
-    height: 25vh;
+    height: 20vh;
 }
 
 .footerSocialMedia{
@@ -89,16 +89,20 @@
 
 .footerOrga{
     display: flex;
-    width: 115vw;
-    margin-left: 5vw;
-    margin-top: 2vh;
+    /* margin-left: 5vw; */
+    /* margin-top: 2vh; */
     align-items: center;
     justify-content: space-around;
     align-content: center;
+    width: 101vw;
 }
 
+
+/*
 .footerh3{
     display: flex;
     margin-right: 27vw;
     width: 20vw;
 }
+
+*/
