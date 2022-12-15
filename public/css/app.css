@@ -10767,24 +10767,22 @@ body {
   color: white;
 }
 
-body {
-  margin: 0px;
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
-.navBarProjet {
-  display: flex;
+.footerContainerBrown {
+  background-color: rgba(83, 44, 0, 0.296);
+  height: 50vh;
+  border: 1px solid black;
+  margin-top: 10vh;
 }
 
-.navBarLeft {
-  display: flex;
-}
-
-.navBarCenter {
-  display: flex;
-}
-
-.navBarRight {
-  display: flex;
+.footerContainerBlack {
+  background-color: rgba(0, 0, 0, 0.419);
+  height: 50vh;
 }
 
 .section1Container {
