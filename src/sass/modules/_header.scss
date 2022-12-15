@@ -45,6 +45,11 @@ body{
     color: #fb0;
 }
 
+.navBarRightPhone i{
+  font-size: 20px;
+}
+
+
 .navBarRightContact{
     display: flex;
     flex-direction: column;
@@ -286,14 +291,12 @@ body{
     background-image: url("../../../public/img/carousel-2.jpg");
   }
   
-
 */
 
 .navBarSecond{
     background-image: url("../../../public/img/carousel-1.jpg");
     display: flex;
     width: 100vw;
-    height: 80vh;
     z-index: 0;
 }
 
