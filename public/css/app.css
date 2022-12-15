@@ -11158,7 +11158,7 @@ div p {
 
 .section6Text {
   display: flex;
-  margin-top: 30vh;
+  margin-top: 25vh;
   align-items: center;
   flex-direction: column;
 }
@@ -11206,4 +11206,31 @@ div p {
 
 .section6SmallContainer p {
   font-size: 15px;
+}
+
+/* external css: flickity.css */
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
