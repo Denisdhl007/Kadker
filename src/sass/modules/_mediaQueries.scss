@@ -11,33 +11,44 @@
 
     .navBarLeft{
         display: flex;
+        width: 90vw;
         justify-content: flex-start;
         text-decoration: none;
     }
     
     .navBarCenter {
         display: flex;
-        align-items: center;
         color: #fff;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
     .navLinks {
         display: flex;
-        /* width: 5vw; */
+        width: 90vw;
         text-decoration: none;
         font-size: 20px;
-        /* margin-left: 2vw; */
-        /* margin-right: 2vw; */
         color: #fff;
         flex-direction: column;
+    }
+    .navBarLinks a {
+        display: flex;
+        width: 90vw;
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        flex-direction: column;
+        align-items: center;
     }
 
     .navLinksLogo{
         display: flex;
+        width: 90vw;
         text-decoration: none;
         font-size: 35px;
         color: #fff;
         flex-direction: column;
+        align-items: center;
     }
 }
