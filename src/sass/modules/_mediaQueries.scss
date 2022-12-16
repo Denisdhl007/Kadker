@@ -300,5 +300,47 @@
         justify-content: center;
         align-content: center;
     }
+}
+
+
+// section7
+
+@media screen and (max-width: 390px){
+    .section7Orga {
+        display: flex;
+        width: 83vw;
+        align-items: center;
+        background-color: #f09e23;
+        justify-content: space-around;
+        /* margin-left: 1vw; */
+        /* margin-top: 12vh; */
+        margin-bottom: 2vh;
+        height: 35vh;
+        flex-direction: column;
+    }
+
+    .section7h3 {
+        width: 24vw;
+        display: flex;
+        margin-right: 27vw;
+    }
+
+    .section7h3 h3 {
+        color: #fff;
+        font-size: 50px;
+    }
+
+    .barRightSearch {
+        display: flex;
+        align-items: center;
+        color: #f09e23;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        /* width: 28vw; */
+        height: 10vh;
+        align-content: center;
+        /* margin-left: -9vw; */
+        /* margin-right: -1vw; */
+    }
 
 }
