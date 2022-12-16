@@ -50,8 +50,6 @@ body{
   transition: 1s;
 }
 
-
-
 .navLinks{
   display: flex;
   width: 5vw;
@@ -72,13 +70,67 @@ body{
   margin-left: 1.5vw;
 }
 
+.dropbtn {
+  background-color: #1e1916;
+  color: white;
+  margin-left: 20px;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+  transition: 0,5s;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  transition: 0,5s;
+}
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  transition: 0,5s;
+  transform: 0,5s;
+}
 
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0,5s;
+  transform: 0,5s;
+  border-radius: 20px;
+}
 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ffb508;
+  transition: 0,5s;
+  transform: 0,5s;
+}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 0,5s;
+  transform: 0,5s;
 
+}
 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #ffa620;
+  transition: 0,5s;
+  transform: 0,5s;
+}
 
 .navBarEnd{
   color: white;
@@ -147,401 +199,72 @@ body{
   font-size: 12px;
 }
 
-
-
-
-
-
-.dropbtn {
-    background-color: #1e1916;
-    color: white;
-    margin-left: 20px;
-    font-size: 16px;
-    border: none;
-    padding-bottom: 17px;
-    cursor: pointer;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #1e1916;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-.navBarProjet{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    height: 15vh;
-    background-color: rgba(17, 17, 17, 0.91);
-    opacity: 0.8;
+.navBarPhoneShake:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
 
-.navBarCenter{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 2vw;
-    margin-right: 2vw;
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
-.dropbtn {
-  background-color: #1e1916;
-  color: white;
-  margin-left: 20px;
-  font-size: 16px;
-  border: none;
-  padding-bottom: 17px;
-  cursor: pointer;
+.passionHeader{
+  font-weight: bold;
+  font-size: 34px;
+  color:white;
+  padding-left: 20vw;
 }
 
-/* The container <div> - needed to position the dropdown content
-.dropdown {
-  position: relative;
+.bakeryHeader{
+color: #eaa636;
+font-size: 12px;
+padding-left: 20vw;
 }
 
-/* Dropdown Content (Hidden by Default)
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 10px;
+.loremHeader{
+  color:white;
+  padding-left: 20vw;
 }
 
-/* Links inside the dropdown 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.textcarrousel{
+  display: flex;
+  flex-direction: column; //options : row | row-reverse | column | column-reverse
+  flex-wrap: wrap; //options : flex-start | flex-end | center | baseline | stretch
+  justify-content: center; //options : start |  center | space-between | space-around | space-evenly
+  filter: brightness(75%);
+  background-color:chartreuse;
+  // background-image: url(../../../public/img/carousel-1.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
-/* Change color of dropdown links on hover 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover
-.dropdown:hover .dropdown-content {
-  display: block;
+.textcarrousel2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  filter: brightness(75%);
+  //background-color:rgb(84, 221, 255);
+  background-image: url("../../../public/img/carousel-1.jpg");
+  background-size: cover;
+  height: 100vh;
 }
-
-/* Change the background color of the dropdown button when the dropdown content is shown 
-.dropdown:hover .dropbtn {
-  background-color: #1e1916;
-}
-
-
-.navBarRight{
-    display: flex;
-    align-items: center;
-}
-
-.navBarRightPhone{
-    display: flex;
-    border-radius: 50%;
-    border: solid 1px #fff;
-    width: 4vh;
-    height: 4vh;
-    justify-content: center;
-    align-items: center;
-    color: #fb0;
-}
-
-.navBarRightPhone i{
-  font-size: 20px;
-}
-
-
-.navBarRightContact{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: flex-start;
-    font-size: 10px;
-    padding-left: 1vw;
-    width: 8vw;
-}
-
-
-
-*/
-/*
-
-@keyframes tonext {
-    75% {
-      left: 0;
-    }
-    95% {
-      left: 100%;
-    }
-    98% {
-      left: 100%;
-    }
-    99% {
-      left: 0;
-    }
-  }
-  
-  @keyframes tostart {
-    75% {
-      left: 0;
-    }
-    95% {
-      left: -300%;
-    }
-    98% {
-      left: -300%;
-    }
-    99% {
-      left: 0;
-    }
-  }
-  
-  @keyframes snap {
-    96% {
-      scroll-snap-align: center;
-    }
-    97% {
-      scroll-snap-align: none;
-    }
-    99% {
-      scroll-snap-align: none;
-    }
-    100% {
-      scroll-snap-align: center;
-    }
-  }
-  
-
-  *::-webkit-scrollbar {
-    width: 0;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background: transparent;
-    border: none;
-  }
-  
-  * {
-    -ms-overflow-style: none;
-  }
-  
-  ol, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .carousel {
-    position: relative;
-    padding-top: 75%;
-    filter: drop-shadow(0 0 10px #0003);
-    perspective: 100px;
-  }
-  
-  .carousel__viewport {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    overflow-x: scroll;
-    counter-reset: item;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .carousel__slide {
-    position: relative;
-    flex: 0 0 100%;
-    width: 100%;
-    background-color: #f99;
-    counter-increment: item;
-  }
-  
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
-  }
-  
-  .carousel__slide:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-40%,70px);
-    color: #fff;
-    font-size: 2em;
-  }
-  
-  .carousel__snapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    scroll-snap-align: center;
-  }
-  
-  @media (hover: hover) {
-    .carousel__snapper {
-      animation-name: tonext, snap;
-      animation-timing-function: ease;
-      animation-duration: 4s;
-      animation-iteration-count: infinite;
-    }
-  
-    .carousel__slide:last-child .carousel__snapper {
-      animation-name: tostart, snap;
-    }
-  }
-  
-  @media (prefers-reduced-motion: reduce) {
-    .carousel__snapper {
-      animation-name: none;
-    }
-  }
-  
-  .carousel:hover .carousel__snapper,
-  .carousel:focus-within .carousel__snapper {
-    animation-name: none;
-  }
-  
-  .carousel__navigation {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-  }
-  
-  .carousel__navigation-list,
-  .carousel__navigation-item {
-    display: inline-block;
-  }
-  
-  .carousel__navigation-button {
-    display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #333;
-    background-clip: content-box;
-    border: 0.25rem solid transparent;
-    border-radius: 50%;
-    font-size: 0;
-    transition: transform 0.1s;
-  }
-  
-  .carousel::before,
-  .carousel::after,
-  .carousel__prev,
-  .carousel__next {
-    position: absolute;
-    top: 0;
-    margin-top: 37.5%;
-    width: 4rem;
-    height: 4rem;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    font-size: 0;
-    outline: 0;
-  }
-  
-  .carousel::before,
-  .carousel__prev {
-    left: -1rem;
-  }
-  
-  .carousel::after,
-  .carousel__next {
-    right: -1rem;
-  }
-  
-  .carousel::before,
-  .carousel::after {
-    content: '';
-    z-index: 1;
-    background-color: #333;
-    background-size: 1.5rem 1.5rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #fff;
-    font-size: 2.5rem;
-    line-height: 4rem;
-    text-align: center;
-    pointer-events: none;
-  }
-  
-  .carousel::before {
-    background-image: url("../../../public/img/carousel-1.jpg");
-  }
-  
-  .carousel::after {
-    background-image: url("../../../public/img/carousel-2.jpg");
-  }
-  
-*/
 
 .navBarSecond{
     background-image: url("../../../public/img/carousel-1.jpg");
@@ -578,7 +301,7 @@ body{
     border-radius: 50px;
     width: 10vw;
     height: 6vh;
-    margin: 0vh 1vw;
+    margin: 0vh 19vw;
     color: #fff;
     border: 1px;
     transition-duration: 0.4s;
@@ -588,5 +311,5 @@ body{
 .headerButtonsL:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: white;
+    transition-duration: 0.4s;
 }
-
