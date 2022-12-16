@@ -77,7 +77,6 @@
   }
   .contsoleil{
     display: flex;
-    
     flex-wrap: wrap; //options : flex-start | flex-end | center | baseline | stretch
     justify-content: center; //options : start |  center | space-between | space-around | space-evenly
     align-items: center;
@@ -92,7 +91,7 @@
     background-color: #eaa636;
     color: white;
   }
-  .imagepain {
+  .section1DivBreadImage {
     border-radius: 10px;
   }
   
@@ -106,13 +105,9 @@
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  
-
 
   .card-body {
     border: none;
-  
-  
   }
   
   .btn:hover {
