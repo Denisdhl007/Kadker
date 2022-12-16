@@ -27806,13 +27806,11 @@ body {
   transition: 0, 5s;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   transition: 0, 5s;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -27825,7 +27823,6 @@ body {
   transform: 0, 5s;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -27836,21 +27833,18 @@ body {
   border-radius: 20px;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   color: #ffa620;
   transition: 0, 5s;
   transform: 0, 5s;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
   transition: 0, 5s;
   transform: 0, 5s;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   color: #ffa620;
   transition: 0, 5s;
@@ -28898,5 +28892,221 @@ div p {
     color: #fff;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .headerButtonsL {
+    background-color: #fb0;
+    border-radius: 50px;
+    width: 32vw;
+    height: 6vh;
+    margin: 0vh 16vw;
+    color: #fff;
+    border: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .bakeryHeader {
+    color: #eaa636;
+    font-size: 12px;
+    padding-left: 16vw;
+  }
+  .passionHeader {
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+    padding-left: 16vw;
+  }
+  .loremHeader {
+    color: white;
+    padding-left: 16vw;
+  }
+}
+@media screen and (max-width: 390px) {
+  .section1Container {
+    display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .section2Container {
+    display: flex;
+    height: 165vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-direction: column;
+  }
+  .section2Card {
+    display: flex;
+    color: #ffb412;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(255, 235, 188, 0.6862745098);
+    width: 85vw;
+    height: 35vh;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 390px) {
+  .section3Container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 147vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .section3Container1 {
+    display: flex;
+    /* width: 41vw; */
+    justify-content: space-around;
+    height: 65vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3ContainerImagesL {
+    display: flex;
+    height: 36vh;
+    width: 52vw;
+    border-radius: 10px;
+    /* margin-top: 5vh; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section3ContainerImagesR {
+    display: flex;
+    height: 29vh;
+    width: 52vw;
+    border-radius: 10px;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section3Container2 {
+    display: flex;
+    width: 76vw;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .section3Button {
+    background-color: #fb0;
+    border-radius: 50px;
+    width: 33vw;
+    height: 6vh;
+    margin: 2vh 1vw;
+    color: #fff;
+    border: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 390px) {
+  .section4Container {
+    display: flex;
+    /* margin-left: 5vw; */
+    /* margin-right: 5vw; */
+    /* margin-top: 8vh; */
+    width: 86vw;
+    margin-bottom: 4vh;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(255, 235, 206, 0.8431372549);
+    align-items: center;
+  }
+  .section4Orga {
+    display: flex;
+    width: 80vw;
+    height: 96vh;
+    margin-top: 2vh;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .section4h3 {
+    display: flex;
+    width: 30vw;
+    height: 45vh;
+    align-items: center;
+    align-content: center;
+  }
+  .section4h3 h3, .section4h3 .h3 {
+    display: flex;
+    /* width: 91vw; */
+    font-size: 55px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .section4TextTitre {
+    display: flex;
+    margin-top: 105vh;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+    font-size: 25px;
+    text-align: center;
+  }
+  .section4ContainerCards4 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section4card {
+    transition: 0.3s;
+    width: 65vw;
+    margin-top: 3vh;
+  }
+  .section4SmallContainer {
+    display: flex;
+    width: 62vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5882352941);
+    border-radius: 10px 10px 0px 0px;
+  }
+  .section4ContainerCard {
+    width: 62vw;
+    height: 31vh;
+    background-color: rgba(255, 233, 192, 0.5882352941);
+    border-radius: 0px 0px 10px 10px;
+  }
+  .barRightContact {
+    display: flex;
+    width: 57vw;
+    height: 13vh;
+    margin-top: 2vh;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .barRightContact p {
+    margin: 0px;
+    height: 33px;
+  }
+  .section4Price {
+    display: flex;
+    border: 1px solid #ffa500;
+    border-radius: 50px;
+    height: 4vh;
+    width: 22vw;
+    margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
 }

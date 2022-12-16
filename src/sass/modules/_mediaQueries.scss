@@ -1,3 +1,5 @@
+// Header 
+
 @media screen and (max-width: 390px) {
     .navbar {
         display: flex;
@@ -51,4 +53,252 @@
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+// header Caroussel
+
+@media screen and (max-width: 390px){
+    .headerButtonsL {
+        background-color: #fb0;
+        border-radius: 50px;
+        width: 32vw;
+        height: 6vh;
+        margin: 0vh 16vw;
+        color: #fff;
+        border: 1px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        }
+    .bakeryHeader {
+        color: #eaa636;
+        font-size: 12px;
+        padding-left: 16vw;
+        }
+    .passionHeader{
+        font-weight: bold;
+        font-size: 34px;
+        color:white;
+        padding-left: 16vw;
+        }
+    .loremHeader{
+        color:white;
+        padding-left: 16vw;
+        }
+}
+
+
+
+// section1
+
+@media screen and (max-width: 390px){
+    .section1Container {
+        display: none;
+    }
+}
+
+
+// section2
+
+@media screen and (max-width: 390px){
+    .section2Container {
+        display: flex;
+        height: 165vh;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        flex-direction: column;
+    }
+
+    .section2Card {
+        display: flex;
+        color: #ffb412;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: #ffebbcaf;
+        width: 85vw;
+        height: 35vh;
+        justify-content: space-evenly;
+    }
+}
+
+
+// section3
+
+@media screen and (max-width: 390px){
+.section3Container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 147vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+    .section3Container1 {
+        display: flex;
+        /* width: 41vw; */
+        justify-content: space-around;
+        height: 65vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3ContainerImagesL {
+        display: flex;
+        height: 36vh;
+        width: 52vw;
+        border-radius: 10px;
+        /* margin-top: 5vh; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3ContainerImagesR {
+        display: flex;
+        height: 29vh;
+        width: 52vw;
+        border-radius: 10px;
+        margin-top: 2vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section3Container2 {
+        display: flex;
+        width: 76vw;
+        height: 95vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .section3Button {
+        background-color: #fb0;
+        border-radius: 50px;
+        width: 33vw;
+        height: 6vh;
+        margin: 2vh 1vw;
+        color: #fff;
+        border: 1px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+
+// section4
+
+@media screen and (max-width: 390px){
+    .section4Container {
+        display: flex;
+        /* margin-left: 5vw; */
+        /* margin-right: 5vw; */
+        /* margin-top: 8vh; */
+        width: 86vw;
+        margin-bottom: 4vh;
+        flex-direction: column;
+        position: relative;
+        background-color: #ffebced7;
+        align-items: center;
+    }
+    .section4Orga {
+        display: flex;
+        width: 80vw;
+        height: 96vh;
+        margin-top: 2vh;
+        align-items: center;
+        position: absolute;
+        justify-content: space-around;
+        flex-direction: column;
+ 
+    }
+    .section4h3 {
+        display: flex;
+        width: 30vw ;
+        height: 45vh;
+        align-items: center;
+        align-content: center;
+    }
+    .section4h3 h3 {
+        display: flex;
+        /* width: 91vw; */
+        font-size: 55px;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .section4TextTitre {
+        display: flex;
+        margin-top: 105vh;
+        align-items: center;
+        flex-direction: column;
+        width: 35vw;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .section4ContainerCards4 {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        margin-top: 5vh;
+        margin-bottom: 7vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section4card {
+        transition: 0.3s;
+        width: 65vw;
+        margin-top: 3vh;
+    }
+
+    .section4SmallContainer {
+        display: flex;
+        width: 62vw;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff96;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .section4ContainerCard {
+        width: 62vw;
+        height: 31vh;
+        background-color: #ffe9c096;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .barRightContact {
+        display: flex;
+        width: 57vw;
+        height: 13vh;
+        margin-top: 2vh;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .barRightContact p {
+        margin: 0px;
+        height: 33px;
+    }
+
+    .section4Price {
+        display: flex;
+        border: 1px solid #ffa500;
+        border-radius: 50px;
+        height: 4vh;
+        width: 22vw;
+        margin-top: 3vh;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
 }
