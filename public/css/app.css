@@ -28224,7 +28224,7 @@ body {
 
 .section1Container {
   border: solid 3px #eaa636;
-  padding-top: 1.5vh;
+  padding-top: 3vh;
   margin: 5vh;
   margin-right: 12.5vw;
   margin-left: 12.5vw;
@@ -28247,7 +28247,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 2.8vw;
+  width: 69vw;
 }
 
 .insidebuble {

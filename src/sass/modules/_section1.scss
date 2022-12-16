@@ -1,6 +1,6 @@
   .section1Container {
     border: solid 3px #eaa636;
-    padding-top: 1.5vh;
+    padding-top: 3vh;
     margin: 5vh;
     margin-right: 12.5vw;
     margin-left: 12.5vw;
@@ -21,9 +21,9 @@
   
   .section1breadDiv {
     display: flex;
-    justify-content: center; //options : start |  center | space-between | space-around | space-evenly
+    justify-content: center;
     align-items: center;
-    padding-left: 2.8vw;
+    width: 69vw;
   }
 
   .insidebuble {
@@ -32,10 +32,6 @@
     align-items: center;
     padding-bottom: 2vh;
   }
-  
-  
-  
-  
 
 
   .insidecarre {
