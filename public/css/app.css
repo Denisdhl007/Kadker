@@ -27737,6 +27737,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background-color: #1e1916;
+  height: 17vh;
 }
 
 .navBarLeft {
@@ -27837,7 +27838,7 @@ body {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ffb508;
+  color: #ffa620;
   transition: 0, 5s;
   transform: 0, 5s;
 }
@@ -27851,7 +27852,7 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #ffa620;
+  color: #ffa620;
   transition: 0, 5s;
   transform: 0, 5s;
 }
@@ -28437,11 +28438,7 @@ div p {
 }
 
 .section3Container2 p {
-  font-size: 20px;
-}
-
-.section3Container2 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .section3ContainerThick {
@@ -28491,6 +28488,7 @@ div p {
 .section4Orga {
   display: flex;
   width: 88vw;
+  height: 30vh;
   margin-left: 1vw;
   margin-top: 2vh;
   align-items: center;
@@ -28506,7 +28504,7 @@ div p {
 
 .section4h3 h3, .section4h3 .h3 {
   width: 32vw;
-  font-size: 60px;
+  font-size: 55px;
   color: white;
 }
 
@@ -28525,7 +28523,7 @@ div p {
 }
 
 .barRightContact p {
-  font-size: 35px;
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -28571,8 +28569,8 @@ div p {
   display: flex;
   border: 1px solid #ffa500;
   border-radius: 50px;
-  height: 3vh;
-  width: 5vw;
+  height: 4vh;
+  width: 6vw;
   margin-top: 3vh;
   align-items: center;
   justify-content: center;
@@ -28580,6 +28578,7 @@ div p {
 }
 
 .section4Texth4 {
+  padding: 10px;
   font-size: 30px;
 }
 
@@ -28595,7 +28594,7 @@ div p {
 }
 
 .section4SmallContainer p {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -28605,7 +28604,7 @@ div p {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 90vh;
 }
 
 /*
@@ -28622,7 +28621,7 @@ div p {
 }
 
 .section5Container2 p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .section5ContainerImagesL {
@@ -28788,14 +28787,14 @@ div p {
 
 .section7Text {
   display: flex;
-  margin-top: 25vh;
+  margin-top: 7vh;
   align-items: center;
   flex-direction: column;
 }
 
 .section7Text h1, .section7Text .h1 {
   display: flex;
-  width: 20vw;
+  width: 31vw;
   align-items: center;
   justify-content: center;
   text-align: center;

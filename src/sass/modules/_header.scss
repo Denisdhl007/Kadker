@@ -12,6 +12,7 @@ body{
   flex-wrap: wrap; //options : flex-start | flex-end | center | baseline | stretch
   align-items: center;
   background-color: #1e1916;
+  height: 17vh;
 }
 
 .navBarLeft{
@@ -112,7 +113,7 @@ body{
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ffb508;
+  color: #ffa620;;
   transition: 0,5s;
   transform: 0,5s;
 }
@@ -127,7 +128,7 @@ body{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #ffa620;
+  color: #ffa620;;
   transition: 0,5s;
   transform: 0,5s;
 }
